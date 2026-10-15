@@ -1,0 +1,15 @@
+{
+  "name": "gatsby-source-kavel",
+  "version": "1.0.0",
+  "description": "Gatsby source plugin for Kavel: generate AI images from prompts at build time and query their URLs with GraphQL. Free tier, no API key needed.",
+  "main": "index.js",
+  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin", "kavel", "ai", "image-generation", "text-to-image"],
+  "homepage": "https://www.kavel.ai/?utm_source=gatsby&utm_medium=package",
+  "repository": { "type": "git", "url": "git+https://github.com/hanshs474/gatsby-source-kavel.git" },
+  "bugs": { "url": "https://github.com/hanshs474/gatsby-source-kavel/issues" },
+  "license": "MIT",
+  "author": "Kavel <support@kavel.ai>",
+  "engines": { "node": ">=18" },
+  "peerDependencies": { "gatsby": ">=4" },
+  "files": ["index.js", "gatsby-node.js", "kavel.js", "README.md", "LICENSE"]
+}
